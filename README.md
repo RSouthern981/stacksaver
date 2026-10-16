@@ -38,14 +38,14 @@ python -m http.server 4000 --directory dist
 ### Step 1: Sign Up for Instant-Approval Referral & Affiliate Programs
 Open [`data/affiliates.json`](./data/affiliates.json) and replace the placeholder URLs (`YOUR_AFFILIATE_ID`) with your tracking links:
 
-| Partner | Payout / Reward | Where to Get Link |
-| :--- | :--- | :--- |
-| **Hostinger VPS** | Up to **60% per sale** ($30–$150+) | [Hostinger Affiliates](https://www.hostinger.com/affiliates) |
-| **DigitalOcean** | Give user **$200 Free Credit**, get **$25–$200** per signup | [DigitalOcean Referral / Partner](https://www.digitalocean.com/referral-program) |
-| **Vultr** | Give user **$100 Free Credit**, get up to **$100** per signup | [Vultr Referral Program](https://www.vultr.com/company/referral-program/) |
-| **Hetzner Cloud** | Give user **€20 Credit**, get **€10** per signup | [Hetzner Referral](https://docs.hetzner.com/general/others/referral-program/) |
-| **Railway** | **15% commission** on referred usage & template deploys | [Railway Referrals](https://railway.app) |
-| **n8n / Make / Notion** | **20%–30% recurring** SaaS affiliate commissions | PartnerStack / Impact / Official Affiliate pages |
+| Partner | Cash Payout / Commission | Cost to Join | Where to Get Your Link |
+| :--- | :--- | :--- | :--- |
+| **Hostinger VPS** | Up to **60% CASH per sale** ($30–$150+ via PayPal/Bank) | **$0 (Individual)** | [Hostinger Affiliates](https://www.hostinger.com/affiliates) |
+| **Cloudways** | Up to **$125 CASH per sale** OR **$30 + 7% lifetime recurring** via PayPal | **$0 (Individual)** | [Cloudways Affiliate Program](https://www.cloudways.com/en/affiliate.php) |
+| **Kamatera Cloud** | **$50–$100 CASH per sale** via PayPal (gives visitors $100 30-day free trial) | **$0 (Individual)** | [Kamatera Affiliates](https://www.kamatera.com/affiliates/) |
+| **Contabo VPS** | Up to **€125 CASH per sale** (via CJ Affiliate publisher account) | **$0 (Individual)** | [Contabo Affiliate Program](https://contabo.com/en/affiliate-program/) |
+| **Railway App** | **15% recurring commission** (cash out via Stripe) | **$0 (GitHub Login)** | [Railway Referrals](https://railway.app) |
+| **n8n / Make / Notion** | **20%–30% recurring CASH** SaaS commissions | **$0 (Individual)** | [PartnerStack](https://partnerstack.com/) & [Make Affiliates](https://www.make.com/en/partners-affiliates) |
 
 > **Tip:** All outbound links on the site route through `/go/[partner-id]/` (with `rel="nofollow sponsored"` and `noindex`), so you only ever have to edit `data/affiliates.json` once!
 
