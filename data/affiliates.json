@@ -1,0 +1,302 @@
+{
+  "site": {
+    "name": "StackSaver",
+    "tagline": "Self-Hosted vs. Cloud SaaS Cost Calculator & Open-Source Directory",
+    "domain": "https://RSouthern981.github.io",
+    "basePath": "/stacksaver",
+    "author": "StackSaver Research",
+    "googleAnalyticsId": "",
+    "plausibleDomain": "",
+    "adsensePublisherId": ""
+  },
+  "vpsProviders": [
+    {
+      "id": "hostinger",
+      "name": "Hostinger KVM VPS",
+      "badge": "Best 1-Click Docker Apps",
+      "highlight": true,
+      "affiliateUrl": "https://www.hostinger.com/vps-hosting?ref=YOUR_AFFILIATE_ID",
+      "signupUrl": "https://www.hostinger.com/affiliates",
+      "commissionNote": "Up to 60% per sale (~$30\u2013$150 per referral)",
+      "promoText": "67% OFF + 1-Click n8n, Coolify & Docker Templates",
+      "features": [
+        "1-Click OS & App Templates (Coolify, n8n, Docker, Supabase)",
+        "NVMe SSD Storage & AMD EPYC Processors",
+        "Built-in AI Server Assistant & Automated Backups",
+        "30-Day Money-Back Guarantee"
+      ],
+      "plans": [
+        {
+          "name": "KVM 1",
+          "vcpu": 1,
+          "ramGb": 4,
+          "storageGb": 50,
+          "bandwidthTb": 4,
+          "monthlyUsd": 4.99
+        },
+        {
+          "name": "KVM 2",
+          "vcpu": 2,
+          "ramGb": 8,
+          "storageGb": 100,
+          "bandwidthTb": 8,
+          "monthlyUsd": 6.99
+        },
+        {
+          "name": "KVM 4",
+          "vcpu": 4,
+          "ramGb": 16,
+          "storageGb": 200,
+          "bandwidthTb": 16,
+          "monthlyUsd": 10.99
+        },
+        {
+          "name": "KVM 8",
+          "vcpu": 8,
+          "ramGb": 32,
+          "storageGb": 400,
+          "bandwidthTb": 32,
+          "monthlyUsd": 19.99
+        }
+      ]
+    },
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean Droplets",
+      "badge": "$200 Free Credit (60 Days)",
+      "highlight": false,
+      "affiliateUrl": "https://m.do.co/c/YOUR_REFERRAL_CODE",
+      "signupUrl": "https://www.digitalocean.com/referral-program",
+      "commissionNote": "$25\u2013$200 per qualified signup (Instant referral link available)",
+      "promoText": "Claim $200 Free Credit for 60 Days",
+      "features": [
+        "1-Click Marketplace Apps & Managed Databases",
+        "99.99% Uptime SLA across 15 Global Datacenters",
+        "Free Cloud Firewalls, DDoS Protection & Monitoring",
+        "Instant vertical scaling as your team grows"
+      ],
+      "plans": [
+        {
+          "name": "Basic 1GB",
+          "vcpu": 1,
+          "ramGb": 1,
+          "storageGb": 25,
+          "bandwidthTb": 1,
+          "monthlyUsd": 6.0
+        },
+        {
+          "name": "Basic 2GB",
+          "vcpu": 1,
+          "ramGb": 2,
+          "storageGb": 50,
+          "bandwidthTb": 2,
+          "monthlyUsd": 12.0
+        },
+        {
+          "name": "Basic 4GB",
+          "vcpu": 2,
+          "ramGb": 4,
+          "storageGb": 80,
+          "bandwidthTb": 4,
+          "monthlyUsd": 24.0
+        },
+        {
+          "name": "Basic 8GB",
+          "vcpu": 4,
+          "ramGb": 8,
+          "storageGb": 160,
+          "bandwidthTb": 5,
+          "monthlyUsd": 48.0
+        },
+        {
+          "name": "Basic 16GB",
+          "vcpu": 8,
+          "ramGb": 16,
+          "storageGb": 320,
+          "bandwidthTb": 6,
+          "monthlyUsd": 96.0
+        }
+      ]
+    },
+    {
+      "id": "vultr",
+      "name": "Vultr Cloud Compute",
+      "badge": "$100 Free Trial Credit",
+      "highlight": false,
+      "affiliateUrl": "https://www.vultr.com/?ref=YOUR_VULTR_ID",
+      "signupUrl": "https://www.vultr.com/company/referral-program/",
+      "commissionNote": "Up to $100 per verified paying referral",
+      "promoText": "Get $100 Free Credit to Test Any Stack",
+      "features": [
+        "32 Global Server Locations (Americas, EU, APAC)",
+        "High-Frequency NVMe Compute & Hourly Billing",
+        "Automated Snapshots & ISO Custom Mounting",
+        "Deploy Docker Compose stacks in under 55 seconds"
+      ],
+      "plans": [
+        {
+          "name": "Cloud 1GB",
+          "vcpu": 1,
+          "ramGb": 1,
+          "storageGb": 25,
+          "bandwidthTb": 1,
+          "monthlyUsd": 5.0
+        },
+        {
+          "name": "Cloud 2GB",
+          "vcpu": 1,
+          "ramGb": 2,
+          "storageGb": 55,
+          "bandwidthTb": 2,
+          "monthlyUsd": 10.0
+        },
+        {
+          "name": "Cloud 4GB",
+          "vcpu": 2,
+          "ramGb": 4,
+          "storageGb": 80,
+          "bandwidthTb": 3,
+          "monthlyUsd": 20.0
+        },
+        {
+          "name": "Cloud 8GB",
+          "vcpu": 4,
+          "ramGb": 8,
+          "storageGb": 160,
+          "bandwidthTb": 4,
+          "monthlyUsd": 40.0
+        },
+        {
+          "name": "Cloud 16GB",
+          "vcpu": 6,
+          "ramGb": 16,
+          "storageGb": 320,
+          "bandwidthTb": 5,
+          "monthlyUsd": 80.0
+        }
+      ]
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner Cloud",
+      "badge": "Best Price/Performance (EU & US)",
+      "highlight": false,
+      "affiliateUrl": "https://hetzner.cloud/?ref=YOUR_HETZNER_CODE",
+      "signupUrl": "https://docs.hetzner.com/general/others/referral-program/",
+      "commissionNote": "\u20ac20 Free Credit for user / \u20ac10 reward per referral",
+      "promoText": "Get \u20ac20 Free Cloud Credit on Signup",
+      "features": [
+        "Unbeatable European & US East/West RAM-per-dollar",
+        "20 TB Monthly Traffic Included on EU Plans",
+        "ISO 27001 Certified & 100% Green Hydro/Wind Power",
+        "Native Cloud-Init & Terraform/Coolify Support"
+      ],
+      "plans": [
+        {
+          "name": "CX22",
+          "vcpu": 2,
+          "ramGb": 4,
+          "storageGb": 40,
+          "bandwidthTb": 20,
+          "monthlyUsd": 4.5
+        },
+        {
+          "name": "CX32",
+          "vcpu": 4,
+          "ramGb": 8,
+          "storageGb": 80,
+          "bandwidthTb": 20,
+          "monthlyUsd": 8.5
+        },
+        {
+          "name": "CX42",
+          "vcpu": 8,
+          "ramGb": 16,
+          "storageGb": 160,
+          "bandwidthTb": 20,
+          "monthlyUsd": 18.5
+        },
+        {
+          "name": "CX52",
+          "vcpu": 16,
+          "ramGb": 32,
+          "storageGb": 320,
+          "bandwidthTb": 20,
+          "monthlyUsd": 36.0
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway App",
+      "badge": "Zero-Ops Instant Deploy",
+      "highlight": false,
+      "affiliateUrl": "https://railway.app?referralCode=YOUR_RAILWAY_CODE",
+      "signupUrl": "https://docs.railway.com/reference/Priority-Boarding#referrals",
+      "commissionNote": "15% recurring commission / credit on template deployments",
+      "promoText": "1-Click Deploy from GitHub Without Managing Linux",
+      "features": [
+        "Over 800+ pre-built 1-click open-source templates",
+        "No SSH, firewall, or Docker Compose maintenance needed",
+        "Automatic SSL, custom domains, and Postgres/Redis provisioning",
+        "Pay-as-you-go resource usage starting at $5/mo"
+      ],
+      "plans": [
+        {
+          "name": "Hobby (Light)",
+          "vcpu": 2,
+          "ramGb": 2,
+          "storageGb": 20,
+          "bandwidthTb": 1,
+          "monthlyUsd": 5.0
+        },
+        {
+          "name": "Hobby (Standard)",
+          "vcpu": 4,
+          "ramGb": 4,
+          "storageGb": 50,
+          "bandwidthTb": 2,
+          "monthlyUsd": 12.0
+        },
+        {
+          "name": "Pro Workload",
+          "vcpu": 8,
+          "ramGb": 8,
+          "storageGb": 100,
+          "bandwidthTb": 5,
+          "monthlyUsd": 25.0
+        },
+        {
+          "name": "Pro Scale",
+          "vcpu": 16,
+          "ramGb": 16,
+          "storageGb": 250,
+          "bandwidthTb": 10,
+          "monthlyUsd": 50.0
+        }
+      ]
+    }
+  ],
+  "saasAffiliates": {
+    "n8n": "https://n8n.io/?ref=YOUR_N8N_AFFILIATE",
+    "make": "https://www.make.com/en/register?pc=YOUR_MAKE_AFFILIATE",
+    "zapier": "https://zapier.com/",
+    "notion": "https://affiliate.notion.so/YOUR_NOTION_AFFILIATE",
+    "supabase": "https://supabase.com/",
+    "posthog": "https://posthog.com/",
+    "plausible": "https://plausible.io/",
+    "airtable": "https://airtable.com/",
+    "intercom": "https://www.intercom.com/",
+    "calendly": "https://calendly.com/",
+    "mailchimp": "https://mailchimp.com/",
+    "1password": "https://1password.com/",
+    "datadog": "https://www.datadoghq.com/",
+    "algolia": "https://www.algolia.com/",
+    "docusign": "https://www.docusign.com/",
+    "linear": "https://linear.app/",
+    "figma": "https://www.figma.com/",
+    "slack": "https://slack.com/",
+    "google-workspace": "https://workspace.google.com/",
+    "vercel": "https://vercel.com/"
+  }
+}
